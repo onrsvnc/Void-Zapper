@@ -7,7 +7,7 @@ public class WaveConfigSO : ScriptableObject
 {
     [SerializeField] List<GameObject> enemyPrefabs;
     [SerializeField] Transform pathPrefab;
-    [SerializeField] float moveSpeed = 10f;
+    [SerializeField] float moveSpeed = 7f;
     [SerializeField] float timeBetweenEnemySpawns = 1f;
     [SerializeField] float spawnTimeVariance = 0.5f;
     [SerializeField] float minimumSpawnTime = 0.2f;
