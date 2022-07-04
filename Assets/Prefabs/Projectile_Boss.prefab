@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3629634411718322361}
   - component: {fileID: 560536424416807134}
   m_Layer: 6
-  m_Name: Projectile_Enemy
+  m_Name: Projectile_Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770304521787368041}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!212 &770304521787368087
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76,10 +76,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 515cdd76e14e3944e99384361f3c5cfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f6b084694b79d0459b9f62949b83d85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 1
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.09, y: 0.37}
   m_AdaptiveModeThreshold: 0.5
@@ -121,9 +121,9 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.09, y: 0.37}
-  m_Direction: 0
+  m_Offset: {x: 0.0013339816, y: 0.0026689176}
+  m_Size: {x: 0.7916489, y: 0.2874282}
+  m_Direction: 1
 --- !u!114 &560536424416807134
 MonoBehaviour:
   m_ObjectHideFlags: 0

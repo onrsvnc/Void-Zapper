@@ -352,6 +352,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 97a885f1e4f1aa54987eb3f4b7bf7fb7, type: 2}
   - {fileID: 11400000, guid: 1d8fc867bd4c1c942836d930294c09dd, type: 2}
   - {fileID: 11400000, guid: 6de3aac0773d31e44992ccc8925a064b, type: 2}
+  - {fileID: 11400000, guid: a4d250861b0760845aba5109b3372b3d, type: 2}
+  - {fileID: 11400000, guid: 97a885f1e4f1aa54987eb3f4b7bf7fb7, type: 2}
+  - {fileID: 11400000, guid: 1d8fc867bd4c1c942836d930294c09dd, type: 2}
+  - {fileID: 11400000, guid: 6de3aac0773d31e44992ccc8925a064b, type: 2}
   - {fileID: 11400000, guid: 8f353f5c52d5a2946a74bb0ba6f430f9, type: 2}
   timeBetweenWaves: 0
   isLooping: 1
